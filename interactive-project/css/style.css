@@ -9,6 +9,7 @@ body {
 }
 
 /* Start Navbar */
+
 .nav-logo {
    display: inline-block;
    padding-top: 7px;
@@ -21,11 +22,21 @@ body {
    -webkit-transition: all 0.2s ease-in-out;
    -o-transition: all 0.2s ease-in-out; }
 
+
+   .nav-item a:hover {
+      color: #00b4cc;
+   }
+
+   .nav-logo:hover {
+      color: #00b4cc;
+      text-decoration: none; }
+    
+    
 /* End Navbar */
 
 
 /* CENTER TEXT */
-h2{
+h2 {
    font-size: 30px;
    line-height: 1em;
    padding: 0;
@@ -35,7 +46,17 @@ h2{
    letter-spacing: 0;
    color: #444;
    font-family: "Nunito",sans-serif;
+   display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
+.section-header{
+   text-align: center;
+}
+
 .col-xs-12{
    width: 100%;
    float: left;
@@ -51,10 +72,6 @@ h2{
    justify-content: space-between;
 }
 
-.align--center {
-   
-   align-items: center;
-}
 .d--flex {
 
    display: flex;
@@ -68,30 +85,15 @@ h2{
 .mt--0 {
    margin-top: 0 !important;
 }
+.cta__svg {
+   position: absolute;
+   width: calc(100% + 3px);
+   left: -3px;
+   right: 0;
+   z-index: 1;
+}
 
 /* END CENTER TEXT */
-
-
-.navbar{
-   padding-top: 0.1rem;
-   padding-right: 1em;
-   padding-bottom: 0.1rem;
-   padding-left: 1rem;
-}
-
-.navbar--border {
-   border-bottom: 4px solid #00b4cc;
-   background-color: #fff;
-}
-
-li, a , button{
-   font-family: "Montserrat", sans-serif;
-   font-weight: 500;
-   font-size: 16px;
-   text-decoration: none;
-}
-
-
 .bgimage-fooldal {
    height: 75vh;
    width: 100%;
@@ -120,7 +122,7 @@ li, a , button{
    position: relative;
 }
 
-.serachterm{
+.searchterm{
    float: left;
    width: 100%;
    border: 3px solid #00b4cc;
@@ -150,3 +152,26 @@ li, a , button{
    cursor: pointer;
    font-size: 20px;  
 }
+
+
+/* cards */
+
+.offer-cards {
+   display: inline-flex;
+   justify-content: center;
+   align-items: flex-start;
+}
+.card-2{
+   box-shadow: 0 15px 15px 0 rgba(0,0,0,.25);
+   text-align: center;
+   padding: 2.5rem;
+   margin-bottom: .625rem;
+   margin-top: .625rem;
+    margin-left: 1.9375rem;
+     margin-right: 1.9375rem;
+     width: 85%;
+     max-width: 85%;
+     width: 18.75rem;
+     box-sizing: border-box;
+     align-items: center;
+ }
