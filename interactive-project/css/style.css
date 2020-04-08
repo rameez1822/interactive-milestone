@@ -122,7 +122,8 @@ h2 {
    position: relative;
 }
 
-.searchterm{
+#pac-input {
+  
    float: left;
    width: 100%;
    border: 3px solid #00b4cc;
@@ -131,7 +132,7 @@ h2 {
    font-size: 15px;
    outline: none;
    transition: 1s all;
-}
+ }
 
 .serachterm:focus{
    color: #00b4cc;
@@ -224,17 +225,7 @@ h2 {
    font-size: 13px;
    font-weight: 300;
  }
- #pac-input {
-   margin-top:50px;
-   background-color: #fff;
-   font-family: Roboto;
-   font-size: 15px;
-   font-weight: 300;
-   margin-left: 12px;
-   padding: 0 11px 0 13px;
-   text-overflow: ellipsis;
-   width: 400px;
- }
+
  #pac-input:focus {
    border-color: #4d90fe;
  }
