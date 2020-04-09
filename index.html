@@ -46,7 +46,7 @@
           <div class="wrap">
             <h2>Find Vegan Restaurants Nearby</h2>
             <form class="search">
-                <input id="pac-input" class="searchterm" type="search" placeholder="vegeterian restuarant near you">
+                <input id="autocomplete" class="searchterm" type="search" placeholder="vegeterian restuarant near you">
                   <button type="submit" class="searchbtn">
                  <i class="fa fa-search"></i>
                </button>
@@ -61,14 +61,44 @@
     </div>
   </div>
 
-  
+  <div class="row">
+    <div class="container"> 
   <div id="map"></div>
-  <div id="infowindow-content">
-    <img src="" width="16" height="16" id="place-icon">
-    <span id="place-name"  class="title"></span><br>
-    <span id="place-address"></span>
+
+  <div id="listing">
+    <table id="resultsTable">
+      <tbody id="results"></tbody>
+    </table>
   </div>
- 
+
+  <div style="display: none">
+    <div id="info-content">
+      <table>
+        <tr id="iw-url-row" class="iw_table_row">
+          <td id="iw-icon" class="iw_table_icon"></td>
+          <td id="iw-url"></td>
+        </tr>
+        <tr id="iw-address-row" class="iw_table_row">
+          <td class="iw_attribute_name">Address:</td>
+          <td id="iw-address"></td>
+        </tr>
+        <tr id="iw-phone-row" class="iw_table_row">
+          <td class="iw_attribute_name">Telephone:</td>
+          <td id="iw-phone"></td>
+        </tr>
+        <tr id="iw-rating-row" class="iw_table_row">
+          <td class="iw_attribute_name">Rating:</td>
+          <td id="iw-rating"></td>
+        </tr>
+        <tr id="iw-website-row" class="iw_table_row">
+          <td class="iw_attribute_name">Website:</td>
+          <td id="iw-website"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+</div>
      <!-- carousel and cards -->
  <div class="row">
   <div class="container">
