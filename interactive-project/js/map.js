@@ -62,8 +62,8 @@ var map, places, infoWindow;
 
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          zoom: countries['us'].zoom,
-          center: countries['us'].center,
+          zoom: countries['uk'].zoom,
+          center: countries['uk'].center,
           mapTypeControl: false,
           panControl: false,
           zoomControl: false,
@@ -108,7 +108,7 @@ var map, places, infoWindow;
       function search() {
         var search = {
           bounds: map.getBounds(),
-          types: ['lodging']
+          types: ['restaurant']
         };
 
         places.nearbySearch(search, function(results, status) {

@@ -232,3 +232,14 @@ h2 {
    font-weight: 500;
    padding: 6px 12px;
  }
+ #listing {
+   position: absolute;
+   margin-top: 40px;
+   width: 200px;
+   height: 470px;
+   overflow: auto;
+   left: 442px;
+   top: 0px;
+   cursor: pointer;
+   overflow-x: hidden;
+ }
