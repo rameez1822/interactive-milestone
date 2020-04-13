@@ -73,7 +73,7 @@ body {
  }
  @media (min-width: 768px) {
    .container {
-     max-width: 90%;
+     max-width: 100%;
    }
  }
  .wrap{
@@ -369,7 +369,7 @@ body {
     }
 
     /* cards and carousel */
-    * Tablet and up */
+  
 
     @media screen and (min-width: 768px) {
       .carousel-inner .active,
@@ -488,3 +488,15 @@ body {
     .row{
       flex-wrap: nowrap;
     }
+    
+    @media (max-width:767px){
+      .row{
+ flex-wrap: wrap;
+      }
+    }
+    @media (min-width: 768px) {
+      .container {
+        max-width: 90%;
+      }
+    }
+    

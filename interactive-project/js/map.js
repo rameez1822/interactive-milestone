@@ -19,6 +19,7 @@ var map, places, infoWindow;
           mapTypeControl: false,
           panControl: false,
           zoomControl: false,
+          type: ['restaurant'],
           streetViewControl: false
         });
 
