@@ -22,3 +22,9 @@ $(document).ready(function() {
     }
   });
 });
+
+// owl-carousel
+$(document).ready(function(){
+  $('.owl-carousel').owlCarousel();
+});
+

@@ -361,7 +361,7 @@ body {
 
 
 /* animate */
-.fadeInLeft
+.bounceInDown 
    {
       animation-duration: 3s;
       animation-delay: 2s;
@@ -372,6 +372,7 @@ body {
   
 
     @media screen and (min-width: 768px) {
+      
       .carousel-inner .active,
       .carousel-inner .active+.carousel-item {
         display: block;
@@ -496,7 +497,9 @@ body {
     }
     @media (min-width: 768px) {
       .container {
-        max-width: 90%;
+        max-width: 100%;
       }
     }
-    
+    .div{
+      display: inline;
+    }
