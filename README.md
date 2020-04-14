@@ -7,7 +7,7 @@ A live demo can be found [here](https://rameez1822534.github.io/interactive-mile
 
 <h2>Wireframes for the site</h2>
 
-here: <a href="projects/interactive-project/wireframes/20200415_000009.jpg">Home </a>| 
+here: <a href="./interactive-project/wireframes/20200415_000009.jpg">Home </a>| 
 
 <h2>UX</h2>
 The purpose is for user to find restaurants in their city or town in the UK . The website will allow the users to find resturants based on their ratings in specific town or city in the UK.
