@@ -5,6 +5,10 @@ Google Maps API project: I chose to build a platform that allows a user to searc
 ## Demo
 A live demo can be found [here](https://rameez1822534.github.io/interactive-milestone/).
 
+<h2>Wireframes for the site</h2>
+
+here: <a href="./wireframes/20200414_235818.jpg">Home </a>| 
+
 <h2>UX</h2>
 The purpose is for user to find restaurants in their city or town in the UK . The website will allow the users to find resturants based on their ratings in specific town or city in the UK.
 
